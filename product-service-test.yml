@@ -1,0 +1,13 @@
+server:
+  port: 8771
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+spring:
+  application:
+    name: product-service
+  sleuth:
+    sampler:
+      probability: 1
+env: test
