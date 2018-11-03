@@ -1,4 +1,4 @@
 server:
   port: 8773
-env: test2020
+env: test2021
 branch: master
